@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Tu Primer Algoritmo - Preparar un Mate 🧉</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <header>
+    🧠 Aprende Algoritmos Jugando - ¡Prepará un Mate! 🧉
+  </header>
+
+  <div class="container">
+    <div class="steps">
+      <h2>Seleccioná los pasos en orden</h2>
+      <div id="stepsContainer"></div>
+      <button onclick="resetGame()">Reiniciar</button>
+      <div class="message" id="message"></div>
+    </div>
+
+    <div class="code">
+      <h2>Tu Algoritmo</h2>
+      <pre id="codeBlock">// Aquí se mostrará el algoritmo...</pre>
+
+      <div id="realCodeContainer" class="real-code hidden">
+        <h2>Código en JavaScript</h2>
+        <pre>
+function prepararMate() {
+  calentarAgua();
+  colocarYerba();
+  humedecerYerba();
+  ponerBombilla();
+  servirAgua();
+}
+        </pre>
+      </div>
+    </div>
+  </div>
+
+  <div class="background-animation"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
